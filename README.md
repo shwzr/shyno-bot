@@ -14,8 +14,11 @@
 2. Create a bot discord "https://discord.com/developers/applications" in "administrator".
 3. Replace in the file "config.js" the line
 ```
-token : " Insert the token of the created robot ".
+module.exports = {
+    token : " Insert the token of the created robot "
+}
 ```
+
 
 
 ## 👤 Author
