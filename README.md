@@ -22,7 +22,7 @@ module.exports = {
 
 ## 🚀 Usage
 
-1. Start your bot with the command in cmd :
+1. Load the folder and start your bot with the command in vscode :
 ```
 node main
 ```
