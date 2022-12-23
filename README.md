@@ -12,13 +12,17 @@
 
 1. Unzip the file "node_modules.zip".
 2. Create a bot discord "https://discord.com/developers/applications" in "administrator".
-3. Replace in the file "config.js" the line
+3. Add the bot to your Discord Server.
+4. Replace in the file "config.js" the line :
 ```
 module.exports = {
     token : " Insert the token of the created robot "
 }
 ```
-
+5. Start your bot with the command :
+```
+node main
+```
 
 
 ## 👤 Author
