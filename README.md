@@ -8,7 +8,7 @@
 
 > This is a little bot discord that I'm starting to develop. 
 
-## 🚀 Usage
+## ⬇ Install
 
 1. Unzip the file "node_modules.zip".
 2. Create a bot discord "https://discord.com/developers/applications" in "administrator".
@@ -19,10 +19,24 @@ module.exports = {
     token : " Insert the token of the created robot "
 }
 ```
-5. Start your bot with the command :
+
+## 🚀 Usage
+
+1. Start your bot with the command in cmd :
 ```
 node main
 ```
+2. You can also use the commands :
+```
+/ping
+/ban user reason
+/unban user reason
+/mute user delay reason
+/unmute user reason
+/clear salon
+
+```
+
 
 
 ## 👤 Author
