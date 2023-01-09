@@ -33,7 +33,6 @@ node main
 /unban user reason
 /mute user delay reason
 /unmute user reason
-/clear salon
 
 ```
 
