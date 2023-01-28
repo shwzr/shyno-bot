@@ -31,9 +31,8 @@ node main
 /ping
 /ban user reason
 /unban user reason
-/mute user delay reason
-/unmute user reason
-
+/dm user message
+/message channel-name/channel-id message
 ```
 
 
