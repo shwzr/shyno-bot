@@ -15,7 +15,7 @@ module.exports = {
             type: "string",
             name: "raison",
             description: "La raison du banissement",
-            required: false,
+            required: true,
         }
     ],
     async run(bot, message, args) {
@@ -25,7 +25,10 @@ module.exports = {
             let member = message.guild.members.cache.get(user.id)
 
             let reason = args.get("raison").value;
-            if(!reason) reason = "Pas de raison fournie.";
+            if (!reason) {
+                message.reply("Veuillez fournir une raison pour le bannissement.");
+                return;
+}
 
             if(message.user.id === user.id) return message.reply("Essaie pas de te bannir !")
             if((await message.guild.fetchOwner()).id === user.id) return message.reply("Ne ban pas le propriétaire du serveur !")
